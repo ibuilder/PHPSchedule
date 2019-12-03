@@ -1,0 +1,209 @@
+ERMHDR	6.1	2019-06-10	Project	admin	admin	dbxDatabaseNoName	Project Management	USD
+%T	CURRTYPE
+%F	curr_id	decimal_digit_cnt	curr_symbol	decimal_symbol	digit_group_symbol	pos_curr_fmt_type	neg_curr_fmt_type	curr_type	curr_short_name	group_digit_cnt	base_exch_rate
+%R	1	2	$	.	,	#1.1	(#1.1)	US Dollar	USD	3	1
+%R	13	2	£	.	,	#1.1	(#1.1)	Pound Sterling	GBP	3	0.618603
+%R	14	2	¥	.	,	#1.1	(#1.1)	Japanese Yen	JPY	3	91.2708 
+%R	15	2	€	.	,	#1.1	(#1.1)	Euro	EUR	3	0.689711
+%R	16	2	¥	.	,	#1.1	(#1.1)	Chinese Yuan Renminbi	CNY	3	6.82502
+%R	17	2	$	.	,	#1.1	(#1.1)	Canadian Dollar	CAD	3	1.03757
+%R	18	2	RUB	.	,	#1.1	(#1.1)	Russian Ruble	RUB	3	0.033948
+%R	19	2	$	.	,	#1.1	(#1.1)	Argentine Peso	ARS	3	3.79109
+%R	20	2	$b	.	,	#1.1	(#1.1)	Bolivian Boliviano	BOB	3	7.5708
+%R	21	2	R$	.	,	#1.1	(#1.1)	Brazilian Real	BRL	3	1.7665
+%R	22	2	$	.	,	#1.1	(#1.1)	Chilean Peso	CLP	3	507.58
+%R	23	2	$	.	,	#1.1	(#1.1)	Columbian Peso	COP	3	1957.74
+%R	24	2	$	.	,	#1.1	(#1.1)	Guyanese Dollar	GYD	3	202.95
+%R	25	2	Gs	.	,	#1.1	(#1.1)	Paraguayan Guarani	PYG	3	4640
+%R	26	2	S/.	.	,	#1.1	(#1.1)	Peruvian Nuevo Sol	PEN	3	2.7244
+%R	27	2	$	.	,	#1.1	(#1.1)	Surinamese Dollar	SRD	3	2.8
+%R	28	2	Bs	.	,	#1.1	(#1.1)	Venezuelan Bolivar Fuerto	VEF	3	2.1446
+%R	29	2	$U	.	,	#1.1	(#1.1)	Uruguayan Peso	UYU	3	21.247
+%T	OBS
+%F	obs_id	parent_obs_id	guid	seq_num	obs_name	obs_descr
+%R	540			0	Enterprise	?<html>  <head>      </head>  <body bgcolor=""#ffffff"">    Enterprise  </body></html>
+%T	PROJECT
+%F	proj_id	fy_start_month_num	rsrc_self_add_flag	allow_complete_flag	rsrc_multi_assign_flag	checkout_flag	project_flag	step_complete_flag	cost_qty_recalc_flag	batch_sum_flag	name_sep_char	def_complete_pct_type	proj_short_name	acct_id	orig_proj_id	source_proj_id	base_type_id	clndr_id	sum_base_proj_id	task_code_base	task_code_step	priority_num	wbs_max_sum_level	strgy_priority_num	last_checksum	critical_drtn_hr_cnt	def_cost_per_qty	last_recalc_date	plan_start_date	plan_end_date	scd_end_date	add_date	last_tasksum_date	fcst_start_date	def_duration_type	task_code_prefix	guid	def_qty_type	add_by_name	web_local_root_path	proj_url	def_rate_type	add_act_remain_flag	act_this_per_link_flag	def_task_type	act_pct_link_flag	critical_path_type	task_code_prefix_flag	def_rollup_dates_flag	use_project_baseline_flag	rem_target_link_flag	reset_planned_flag	allow_neg_act_flag	sum_assign_level	last_fin_dates_id	last_baseline_update_date	cr_external_key	apply_actuals_date	location_id	loaded_scope_level	export_flag	new_fin_dates_id	baselines_to_export	baseline_names_to_export	next_data_date	close_period_flag	sum_refresh_date	trsrcsum_loaded
+%R	5482	1	Y	Y	Y	N	Y	N	N	Y	.	CP_Drtn	2017-031 CL8					7548	5484	1000	10	10	2	500		0	0.0000	2019-06-05 00:00	2019-03-25 00:00		2019-08-29 14:30	2019-04-03 00:00			DT_FixedDUR2	CIC-	mepdnip3pkq1sHsmyUnUOw	QT_Hour	admin			COST_PER_QTY	N	Y	TT_Task	Y	CT_TotFloat	Y	Y	Y	Y	N	N	SL_Taskrsrc						7	Y						1899-12-30 00:00	
+%T	CALENDAR
+%F	clndr_id	default_flag	clndr_name	proj_id	base_clndr_id	last_chng_date	clndr_type	day_hr_cnt	week_hr_cnt	month_hr_cnt	year_hr_cnt	rsrc_private	clndr_data
+%R	7548	Y	5 days 9-2pm			2018-04-12 00:00	CA_Base	5	25	108.3	1300	N	(0||CalendarData()(  (0||DaysOfWeek()(    (0||1()())    (0||2()(      (0||0(s|09:30|f|14:30)())))    (0||3()(      (0||0(s|09:30|f|14:30)())))    (0||4()(      (0||0(s|09:30|f|14:30)())))    (0||5()(      (0||0(s|09:30|f|14:30)())))    (0||6()(      (0||0(s|09:30|f|14:30)())))    (0||7()())))  (0||VIEW(ShowTotal|Y)())  (0||Exceptions()(    (0||0(d|36346)())    (0||1(d|36489)())    (0||2(d|36518)())    (0||3(d|36525)())    (0||4(d|36675)())    (0||5(d|36773)())    (0||6(d|36853)())    (0||7(d|37039)())    (0||8(d|37137)())    (0||9(d|37217)())    (0||10(d|37403)())    (0||11(d|37501)())    (0||12(d|37588)())    (0||13(d|37767)())    (0||14(d|37865)())    (0||15(d|37952)())    (0||16(d|37987)())    (0||17(d|38173)())    (0||18(d|38316)())    (0||19(d|38317)())    (0||20(d|38345)())    (0||21(d|38352)())    (0||22(d|38358)())    (0||23(d|38435)())    (0||24(d|38436)())    (0||25(d|38502)())    (0||26(d|38537)())    (0||27(d|38558)())    (0||28(d|38600)())    (0||29(d|38680)())    (0||30(d|38681)())    (0||31(d|38712)())    (0||32(d|38719)())    (0||33(d|38723)())    (0||34(d|38806)(      (0||0(s|08:00|f|16:00)())))    (0||35(d|38807)(      (0||0(s|08:00|f|16:00)())))    (0||36(d|38820)())    (0||37(d|38821)())    (0||38(d|38825)(      (0||0(s|07:00|f|12:00)())      (0||1(s|13:00|f|16:00)())))    (0||39(d|38902)())    (0||40(d|38923)())    (0||41(d|38964)())    (0||42(d|39006)(      (0||0(s|07:00|f|12:00)())      (0||1(s|12:30|f|15:30)())))    (0||43(d|39044)())    (0||44(d|39045)())    (0||45(d|39076)())    (0||46(d|39083)())    (0||47(d|39087)(      (0||0(s|08:00|f|16:00)())))    (0||48(d|39170)(      (0||0(s|08:00|f|16:00)())))    (0||49(d|39171)(      (0||0(s|08:00|f|16:00)())))    (0||50(d|39177)())    (0||51(d|39178)())    (0||52(d|39230)())    (0||53(d|39267)())    (0||54(d|39288)())    (0||55(d|39328)())    (0||56(d|39408)())    (0||57(d|39409)())    (0||58(d|39441)())    (0||59(d|39448)())    (0||60(d|39527)())    (0||61(d|39528)())    (0||62(d|39594)())    (0||63(d|39633)())    (0||64(d|39654)())    (0||65(d|39692)())    (0||66(d|39756)())    (0||67(d|39779)())    (0||68(d|39780)())    (0||69(d|39807)())    (0||70(d|39808)())    (0||71(d|39814)())    (0||72(d|39815)())    (0||73(d|39818)())    (0||74(d|39819)())    (0||75(d|39912)())    (0||76(d|39913)())    (0||77(d|39958)())    (0||78(d|40063)())    (0||79(d|40143)())    (0||80(d|40144)())    (0||81(d|40172)())    (0||82(d|40179)())    (0||83(d|40184)())    (0||84(d|40269)())    (0||85(d|40270)())    (0||86(d|40329)())    (0||87(d|40427)())    (0||88(d|40507)())    (0||89(d|40508)())    (0||90(d|40536)())    (0||91(d|40543)())    (0||92(d|40549)())    (0||93(d|40654)())    (0||94(d|40655)())    (0||95(d|40693)())    (0||96(d|40728)())    (0||97(d|40749)())    (0||98(d|40791)())    (0||99(d|40871)())    (0||100(d|40872)())    (0||101(d|40914)())    (0||102(d|41004)())    (0||103(d|41005)())    (0||104(d|41057)())    (0||105(d|41094)())    (0||106(d|41115)())    (0||107(d|41155)())    (0||108(d|41219)())    (0||109(d|41235)())    (0||110(d|41236)())    (0||111(d|41267)())    (0||112(d|41268)())    (0||113(d|41274)())    (0||114(d|41275)())    (0||115(d|41361)())    (0||116(d|41362)())    (0||117(d|41421)())    (0||118(d|41459)())    (0||119(d|41480)())    (0||120(d|41519)())    (0||121(d|41606)())    (0||122(d|41607)())    (0||123(d|41633)())    (0||124(d|41640)())    (0||125(d|41645)())    (0||126(d|41746)())    (0||127(d|41747)())    (0||128(d|41785)())    (0||129(d|41824)())    (0||130(d|41845)())    (0||131(d|41883)())    (0||132(d|41970)())    (0||133(d|41971)())    (0||134(d|41998)())    (0||135(d|42005)())    (0||136(d|42010)())    (0||137(d|42096)())    (0||138(d|42097)())    (0||139(d|42149)())    (0||140(d|42254)())    (0||141(d|42334)())    (0||142(d|42335)())    (0||143(d|42363)())    (0||144(d|42370)())    (0||145(d|42375)())    (0||146(d|42454)())    (0||147(d|42555)())    (0||148(d|42576)())    (0||149(d|42618)())    (0||150(d|42644)(      (0||0(s|08:00|f|16:00)())))    (0||151(d|42658)(      (0||0(s|08:00|f|16:00)())))    (0||152(d|42682)())    (0||153(d|42698)())    (0||154(d|42741)())    (0||155(d|42784)(      (0||0(s|08:00|f|16:00)())))    (0||156(d|42824)(      (0||0(s|08:00|f|16:00)())))    (0||157(d|42825)(      (0||0(s|08:00|f|16:00)())))    (0||158(d|42839)())    (0||159(d|42920)())    (0||160(d|42941)())    (0||161(d|42982)())    (0||162(d|43062)())    (0||163(d|43063)())    (0||164(d|43094)())    (0||165(d|43101)())    (0||166(d|43195)())    (0||167(d|43196)())    (0||168(d|43248)())    (0||169(d|43285)())    (0||170(d|43306)())    (0||171(d|43346)())    (0||172(d|43426)())    (0||173(d|43427)())    (0||174(d|43459)())    (0||175(d|43466)())    (0||176(d|43559)())    (0||177(d|43560)())    (0||178(d|43612)())    (0||179(d|43650)())    (0||180(d|43671)())    (0||181(d|43710)())    (0||182(d|43797)())    (0||183(d|43798)())    (0||184(d|43824)())    (0||185(d|43831)())    (0||186(d|43836)())))))
+%T	SCHEDOPTIONS
+%F	schedoptions_id	proj_id	sched_outer_depend_type	sched_open_critical_flag	sched_lag_early_start_flag	sched_retained_logic	sched_setplantoforecast	sched_float_type	sched_calendar_on_relationship_lag	sched_use_expect_end_flag	sched_progress_override	level_float_thrs_cnt	level_outer_assign_flag	level_outer_assign_priority	level_over_alloc_pct	level_within_float_flag	level_keep_sched_date_flag	level_all_rsrc_flag	sched_use_project_end_date_for_float	enable_multiple_longest_path_calc	limit_multiple_longest_path_calc	max_multiple_longest_path	use_total_float_multiple_longest_paths	key_activity_for_multiple_longest_paths	LevelPriorityList
+%R	1	5482	SD_Both	N	Y	N	N	FT_FF	rcal_Predecessor	Y	Y	0	N	5	25	N	Y	Y	Y	N	Y	10	Y		priority_type,ASC
+%T	PROJWBS
+%F	wbs_id	proj_id	obs_id	seq_num	est_wt	proj_node_flag	sum_data_flag	status_code	wbs_short_name	wbs_name	phase_id	parent_wbs_id	ev_user_pct	ev_etc_user_value	orig_cost	indep_remain_total_cost	ann_dscnt_rate_pct	dscnt_period_type	indep_remain_work_qty	anticip_start_date	anticip_end_date	ev_compute_type	ev_etc_compute_type	guid	tmpl_guid	plan_open_state
+%R	33529	5482	540	400	1	Y	N	WS_Open	2017-031 CL8	Cluster 8 Punch List		3063	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	mTCthhwPHUatQxgDwBM+EQ		
+%R	33530	5482	540	0	1	N	N	WS_Open	1	PROJECT START		33529	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	isUxlQkCBkyDFAleAvV3ew		
+%R	33531	5482	540	100	1	N	N	WS_Open	2	PROCUREMENT		33529	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	CJaBg7iTvEmDReknqaYN2w		
+%R	33532	5482	540	200	1	N	N	WS_Open	3	CONSTRUCTION		33529	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	lBMKn3dAGE2URJmAkREuoA		
+%R	33533	5482	540	300	1	N	N	WS_Open	4	PROJECT FINISH		33529	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	rTsi9JVDdk+tBrf16g2NNA		
+%R	33534	5482	540	102	1	N	N	WS_Open	1	Millwork		33531	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	gI9E+ID/UkOwmOGttUxZaA		
+%R	33535	5482	540	102	1	N	N	WS_Open	2	Green Plaster		33531	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	o0GWBlxRMkGLtOEcNDdUew		
+%R	33536	5482	540	102	1	N	N	WS_Open	3	Marble & Tiles		33531	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	/1h5eqctsUmSWK8kqhcbZg		
+%R	33537	5482	540	102	1	N	N	WS_Open	4	Heat Pumps		33531	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	4k9l4DeVlE6DzHelgQOaLA		
+%R	33538	5482	540	102	1	N	N	WS_Open	5	Air Distribution		33531	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	JvMCnAlFsUK/p/hl7o1HRw		
+%R	33539	5482	540	102	1	N	N	WS_Open	6	Electrical Panel		33531	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	KbDx9MPYXESCYU5A/4boFg		
+%R	33540	5482	540	101	1	N	N	WS_Open	8	Shower Doors		33531	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	KK93unu69UiDW7uQ4Tk0hg		
+%R	33541	5482	540	102	1	N	N	WS_Open	7	Pool Equipment		33531	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ju1Sr2FN20aT4FDcS5s0uQ		
+%R	33542	5482	540	101	1	N	N	WS_Open	9	Pool Finishes		33531	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	/qVi7cipDUOKdkMvdrEFqw		
+%R	33543	5482	540	201	1	N	N	WS_Open	1	Millwork		33532	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	bDtCJKvP5UKYrRkPCtU2dg		
+%R	33544	5482	540	201	1	N	N	WS_Open	2	CSA		33532	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	bp5EVEVahk+j+OtjWWhGlQ		
+%R	33545	5482	540	201	1	N	N	WS_Open	3	MEP		33532	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	i1lNfBT8MkWAbGiTDK2m+Q		
+%R	33546	5482	540	201	1	N	N	WS_Open	4	Specialties		33532	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	28oY3+CFHE+e8FRMyz3DGQ		
+%R	34854	5482	540	101	1	N	N	WS_Open	10	Terrazzo		33531	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	uFtc730D40KvtTKrxkozYw		
+%T	TASK
+%F	task_id	proj_id	wbs_id	clndr_id	phys_complete_pct	rev_fdbk_flag	est_wt	lock_plan_flag	auto_compute_act_flag	complete_pct_type	task_type	duration_type	status_code	task_code	task_name	rsrc_id	total_float_hr_cnt	free_float_hr_cnt	remain_drtn_hr_cnt	act_work_qty	remain_work_qty	target_work_qty	target_drtn_hr_cnt	target_equip_qty	act_equip_qty	remain_equip_qty	cstr_date	act_start_date	act_end_date	late_start_date	late_end_date	expect_end_date	early_start_date	early_end_date	restart_date	reend_date	target_start_date	target_end_date	rem_late_start_date	rem_late_end_date	cstr_type	priority_type	suspend_date	resume_date	float_path	float_path_order	guid	tmpl_guid	cstr_date2	cstr_type2	driving_path_flag	act_this_per_work_qty	act_this_per_equip_qty	external_early_start_date	external_late_end_date	create_date	update_date	create_user	update_user	location_id
+%R	128465	5482	33540	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Active	CIC-1020	Fabrication & Delivery		155	0	20	0	0	0	200	0	0	0		2019-04-15 00:00		2019-07-19 09:30	2019-07-24 14:30		2019-06-05 09:30	2019-06-10 14:30	2019-06-05 09:30	2019-06-10 14:30	2019-04-22 09:30	2019-06-17 14:30	2019-07-19 09:30	2019-07-24 14:30		PT_Normal					fnj5gDLdTUyWO1Sl5OElfQ				N	0	0			2019-04-03 15:09	2019-06-05 09:33	admin	admin	
+%R	128466	5482	33542	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1030	Submittal Prep				0	0	0	0	25	0	0	0		2019-05 -27 00:00	2019-06-05 00:00								2019-05-29 09:30	2019-06-04 14:30				PT_Normal					jqBTuOxR/US3ptPc1hyJUA	fpLargARTEi95EfZdweHUg			N	0	0			2019-04-03 15:11	2019-06-05 09:02	admin	admin	
+%R	128467	5482	33542	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1040	Submittal Approval		0	0	50	0	0	0	50	0	0	0				2019-06-05 09:30	2019-06-18 14:30		2019-06-05 09:30	2019-06-18 14:30	2019-06-05 09:30	2019-06-18 14:30	2019-06-05 09:30	2019-06-18 14:30	2019-06-05 09:30	2019-06-18 14:30		PT_Normal					JKJTZ/wdAEmq7+yuAD+H6Q	tRTVGG4+E0epV3OPgV5fGg			Y	0	0			2019-04-03 15:11	2019-06-05 09:02	admin	admin	
+%R	128468	5482	33542	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1050	Fabrication & Delivery		0	0	200	0	0	0	200	0	0	0				2019-06-19 09:30	2019-08-15 14:30		2019-06-19 09:30	2019-08-15 14:30	2019-06-19 09:30	2019-08-15 14:30	2019-06-19 09:30	2019-08-15 14:30	2019-06-19 09:30	2019-08-15 14:30		PT_Normal					ApXn1DCB+kuHYXO2NDFimw	fnj5gDLdTUyWO1Sl5OElfQ			Y	0	0			2019-04-03 15:11	2019-06-05 09:02	admin	admin	
+%R	128469	5482	33534	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1060	Submittal Prep				0	0	0	0	50	0	0	0		2019-04-24 00:00	2019-05-07 00:00								2019-05-08 09:30	2019-05-21 14:30				PT_Normal					56Y+wscqX0a6Y/ziHq7Kaw	fpLargARTEi95EfZdweHUg			N	0	0			2019-04-03 15:11	2019-05-29 08:49	admin	admin	
+%R	128470	5482	33534	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Active	CIC-1070	Submittal Approval		100	0	25	0	0	0	50	0	0	0		2019-05-08 09:30		2019-07-03 09:30	2019-07-10 14:30		2019-06-05 09:30	2019-06-11 14:30	2019-06-05 09:30	2019-06-11 14:30	2019-05-08 09:30	2019-05-21 14:30	2019-07-03 09:30	2019-07-10 14:30		PT_Normal					5tDppNsPY0GqqYo7cDv6MQ	tRTVGG4+E0epV3OPgV5fGg			N	0	0			2019-04-03 15:11	2019-06-05 09:02	admin	admin	
+%R	128471	5482	33534	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1080	Fabrication & Delivery		100	75	100	0	0	0	100	0	0	0				2019-07-11 09:30	2019-08-08 14:30		2019-06-12 09:30	2019-07-10 14:30	2019-06-12 09:30	2019-07-10 14:30	2019-06-12 09:30	2019-07-10 14:30	2019-07-11 09:30	2019-08-08 14:30		PT_Normal					f8wber1w4USvPNoQKX7I6g	fnj5gDLdTUyWO1Sl5OElfQ			N	0	0			2019-04-03 15:11	2019-06-05 09:02	admin	admin	
+%R	128472	5482	33535	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1090	Submittal Prep				0	0	0	0	25	0	0	0		2019-05-03 00:00	2019-05-14 00:00								2019-05-08 09:30	2019-05-14 14:30				PT_Normal					wg6bMm93ZEOIhxpBisfQzQ	fpLargARTEi95EfZdweHUg			N	0	0			2019-04-03 15:12	2019-05-22 09:49	admin	admin	
+%R	128473	5482	33535	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1100	Submittal Approval				0	0	0	0	50	0	0	0		2019-05-15 00:00	2019-05-20 00:00								2019-05-10 12:00	2019-05-24 12:00				PT_Normal					6dFQA+HtVkyY9EXi7B4oCQ	tRTVGG4+E0epV3OPgV5fGg			N	0	0			2019-04-03 15:12	2019-05-22 09:50	admin	admin	
+%R	128474	5482	33535	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Active	CIC-1110	Fabrication & Delivery		185	120	55	0	0	0	100	0	0	0		2019-05-22 00:00		2019-07-30 09:30	2019-08-13 14:30		2019-06-05 09:30	2019-06-19 14:30	2019-06-05 09:30	2019-06-19 14:30	2019-05-29 09:30	2019-06-25 14:30	2019-07-30 09:30	2019-08-13 14:30		PT_Normal					StrUQv0D1E+YyqO7Wtf8bQ	fnj5gDLdTUyWO1Sl5OElfQ			N	0	0			2019-04-03 15:12	2019-06-05 09:33	admin	admin	
+%R	128475	5482	33536	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1120	Submittal Prep				0	0	0	0	25	0	0	0		2019-04-22 00:00	2019-04-24 00:00								2019-05-08 09:30	2019-05-14 14:30				PT_Normal					a4zOP18/ikyWg8fT2e/dTA	fpLargARTEi95EfZdweHUg			N	0	0			2019-04-03 15:12	2019-05-08 12:50	admin	admin	
+%R	128476	5482	33536	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1130	Submittal Approval				0	0	0	0	25	0	0	0		2019-04-25 00:00	2019-06-04 00:00								2019-06-05 09:30	2019-06-11 14:30				PT_Normal					h0FSumS/n0+59ys7mgdaAg	tRTVGG4+E0epV3OPgV5fGg			N	0	0			2019-04-03 15:12	2019-06-05 09:33	admin	admin	
+%R	128477	5482	33536	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Active	CIC-1140	Fabrication & Delivery		25	0	225	0	0	0	150	0	0	0		2019-06-05 00:00		2019-06-12 09:30	2019-08-15 14:30		2019-06-05 09:30	2019-08-08 14:30	2019-06-05 09:30	2019-08-08 14:30	2019-06-12 09:30	2019-07-24 14:30	2019-06-12 09:30	2019-08-15 14:30		PT_Normal					ZhEm4e0UKk2uruLkIGzN3g	fnj5gDLdTUyWO1Sl5OElfQ			N	0	0			2019-04-03 15:12	2019-06-05 09:34	admin	admin	
+%R	128478	5482	33537	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1150	Submittal Prep				0	0	0	0	25	0	0	0		2019-03-11 00:00	2019-03-14 00:00								2019-05-08 09:30	2019-05-14 14:30				PT_Normal					AMUQMSOZJ02luw2BXXwmgg	fpLargARTEi95EfZdweHUg			N	0	0			2019-04-03 15:12	2019-05-08 12:50	admin	admin	
+%R	128479	5482	33537	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1160	Submittal Approval				0	0	0	0	25	0	0	0		2019-03-15 00:00	2019-03-27 00:00								2019-05-15 09:30	2019-05-21 14:30				PT_Normal					/DXmwg0PK0qLZkEvuaqefw	tRTVGG4+E0epV3OPgV5fGg			N	0	0			2019-04-03 15:12	2019-05-08 12:50	admin	admin	
+%R	128480	5482	33537	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Active	CIC-1170	Fabrication & Delivery		255	0	20	0	0	0	150	0	0	0		2019-04-22 00:00		2019-08-19 09:30	2019-08-22 14:30		2019-06-05 09:30	2019-06-10 14:30	2019-06-05 09:30	2019-06-10 14:30	2019-05-22 09:30	2019-07-03 14:30	2019-08-19 09:30	2019-08-22 14:30		PT_Normal					bVQABB1OAkGB95AkardmRw	fnj5gDLdTUyWO1Sl5OElfQ			N	0	0			2019-04-03 15:12	2019-06-05 09:02	admin	admin	
+%R	128481	5482	33538	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1180	Submittal Prep				0	0	0	0	25	0	0	0		2019-04-01 00:00	2019-04-03 00:00								2019-05-08 09:30	2019-05-14 14:30				PT_Normal					1/RIr+lKy0y8pomKGU2qtA	fpLargARTEi95EfZdweHUg			N	0	0			2019-04-03 15:12	2019-05-08 12:50	admin	admin	
+%R	128482	5482	33538	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1190	Submittal Approval				0	0	0	0	25	0	0	0		2019-04-04 00:00	2019-04-25 00:00								2019-05-15 09:30	2019-05-21 14:30				PT_Normal					B8qaFAR7GEiGPoEe5U4Zcg	tRTVGG4+E0epV3OPgV5fGg			N	0	0			2019-04-03 15:12	2019-05-08 12:50	admin	admin	
+%R	128483	5482	33538	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Active	CIC-1200	Fabrication & Delivery		135	110	10	0	0	0	100	0	0	0		2019-04-26 00:00		2019-07-15 09:30	2019-07-16 14:30		2019-06-05 09:30	2019-06-06 14:30	2019-06-05 09:30	2019-06-06 14:30	2019-05-22 09:30	2019-06-19 14:30	2019-07-15 09:30	2019-07-16 14:30		PT_Normal					ZuZDk59+x0WM8nEFJRyG0g	fnj5gDLdTUyWO1Sl5OElfQ			N	0	0			2019-04-03 15:12	2019-06-05 09:02	admin	admin	
+%R	128484	5482	33539	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1210	Submittal Prep				0	0	0	0	25	0	0	0		2019-04-15 00:00	2019-04-17 00:00								2019-05-08 09:30	2019-05-14 14:30				PT_Normal					jMBBQ8egT0eaCbA7iKzB8g	fpLargARTEi95EfZdweHUg			N	0	0			2019-04-03 15:12	2019-05-08 12:50	admin	admin	
+%R	128485	5482	33539	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1220	Submittal Approval				0	0	0	0	25	0	0	0		2019-04-18 00:00	2019-04-22 00:00								2019-05-15 09:30	2019-05-21 14:30				PT_Normal					ezrwYgnrqkWAXEVH6Tsn8g	tRTVGG4+E0epV3OPgV5fGg			N	0	0			2019-04-03 15:12	2019-05-08 12:50	admin	admin	
+%R	128486	5482	33539	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1230	Fabrication & Delivery				0	0	0	0	100	0	0	0		2019-04-23 00:00	2019-05-27 00:00								2019-05-22 09:30	2019-06-19 14:30				PT_Normal					L+peuaDBTEmIhpCgROBeLA	fnj5gDLdTUyWO1Sl5OElfQ			N	0	0			2019-04-03 15:12	2019-05-29 09:05	admin	admin	
+%R	128487	5482	33541	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1240	Submittal Prep				0	0	0	0	25	0	0	0		2019-04-22 00:00	2019-04-26 00:00								2019-05-08 09:30	2019-05-14 14:30				PT_Normal					2Vb/tEU/AkOOnHLwtnW0rw	fpLargARTEi95EfZdweHUg			N	0	0			2019-04-03 15:12	2019-05-08 12:50	admin	admin	
+%R	128488	5482	33541	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1250	Submittal Approval				0	0	0	0	25	0	0	0		2019-04-29 00:00	2019-04-30 00:00								2019-05-15 09:30	2019-05-21 14:30				PT_Normal					lzbgYtZ9CkiPFgPBYKmYWw	tRTVGG4+E0epV3OPgV5fGg			N	0	0			2019-04-03 15:12	2019-05-08 12:50	admin	admin	
+%R	128489	5482	33541	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1260	Fabrication & Delivery				0	0	0	0	100	0	0	0		2019-05-01 00:00	2019-05-28 00:00								2019-05-22 09:30	2019-06-19 14:30				PT_Normal					5gg4lCipR068jUJDtc4K/Q	fnj5gDLdTUyWO1Sl5OElfQ			N	0	0			2019-04-03 15:12	2019-05-29 09:01	admin	admin	
+%R	133279	5482	33530	7548	100	N	1	N	N	CP_Drtn	TT_Mile	DT_FixedDrtn	TK_Complete	CIC-1270	Project Start				0	0	0	0	0	0	0	0		2019-04-22 09:30	2019-04-22 09:30								2019-04-22 09:30	2019-04-22 09:30				PT_Normal					Jxzz1ie88Uy3Tx2mnnhDTQ				N	0	0			2019-04-04 10:41	2019-05-08 12:50	admin	admin	
+%R	133280	5482	33543	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1280	Millwork Removal				0	0	0	0	25	0	0	0		2019-05-13 00:00	2019-05-17 00:00								2019-05-08 09:30	2019-05-14 14:30				PT_Normal					lgR/kNAnLEygkFqCkfSsoQ				N	0	0			2019-04-04 11:06	2019-05-22 09:51	admin	admin	
+%R	133281	5482	33543	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1290	Millwork Installation		25	25	75	0	0	0	75	0	0	0				2019-08-09 09:30	2019-08-29 14:30		2019-08-02 09:30	2019-08-22 14:30	2019-08-02 09:30	2019-08-22 14:30	2019-08-02 09:30	2019-08-22 14:30	2019-08-09 09:30	2019-08-29 14:30		PT_Normal					a9ve8aeDzEyI0oqxmMfIIw				N	0	0			2019-04-04 11:06	2019-06-05 09:02	admin	admin	
+%R	133282	5482	33544	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1300	Terrazo Exterior Demolition				0	0	0	0	50	0	0	0		2019-04-08 00:00	2019-04-16 00:00								2019-05-08 09:30	2019-05-21 14:30				PT_Normal					EWKC2UB26UCaxRmQ9eMgcg				N	0	0			2019-04-04 11:07	2019-05-08 12:50	admin	admin	
+%R	133283	5482	33544	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1310	Terrazo Interior Demolition				0	0	0	0	35	0	0	0		2019-05-06 00:00	2019-05-15 00:00								2019-06-06 09:30	2019-06-14 14:30				PT_Normal					VwwexXBzYU+kwp2JzcuvIA				N	0	0			2019-04-04 11:07	2019-05-22 09:52	admin	admin	
+%R	133284	5482	33544	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1320	Marble Finishes Removal				0	0	0	0	25	0	0	0		2019-04-17 00:00	2019-05-06 00:00								2019-05-28 09:30	2019-06-03 14:30				PT_Normal					qexf1sm2CE2xIoW4AwHjRQ				N	0	0			2019-04-04 11:07	2019-05-08 12:50	admin	admin	
+%R	133285	5482	33544	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1330	Drywall Assemblies		25	0	50	0	0	0	50	0	0	0				2019-07-18 09:30	2019-08-01 14:30		2019-07-11 09:30	2019-07-24 14:30	2019-07-11 09:30	2019-07-24 14:30	2019-07-11 09:30	2019-07-24 14:30	2019-07-18 09:30	2019-08-01 14:30		PT_Normal					e75QiF9whEeev3PjUgPlTw				N	0	0			2019-04-04 11:07	2019-06-05 09:02	admin	admin	
+%R	133286	5482	33544	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1340	Paint		25	0	25	0	0	0	25	0	0	0				2019-08-02 09:30	2019-08-08 14:30		2019-07-26 09:30	2019-08-01 14:30	2019-07-26 09:30	2019-08-01 14:30	2019-07-26 09:30	2019-08-01 14:30	2019-08-02 09:30	2019-08-08 14:30		PT_Normal					gGlKZXWSLk699FtfPJy82A				N	0	0			2019-04-04 11:08	2019-06-05 09:02	admin	admin	
+%R	133287	5482	33544	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1350	Entry Area Concrete Slab		215	35	10	0	0	0	10	0	0	0				2019-08-21 09:30	2019-08-22 14:30		2019-06-19 09:30	2019-06-20 14:30	2019-06-19 09:30	2019-06-20 14:30	2019-06-19 09:30	2019-06-20 14:30	2019-08-21 09:30	2019-08-22 14:30		PT_Normal					iWeglK+rJUG4+7W6pqairQ				N	0	0			2019-04-04 11:08	2019-06-05 09:02	admin	admin	
+%R	133288	5482	33544	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1360	New Terrazo Exterior		180	180	25	0	0	0	25	0	0	0				2019-08-23 09:30	2019-08-29 14:30		2019-07-02 09:30	2019-07-09 14:30	2019-07-02 09:30	2019-07-09 14:30	2019-07-02 09:30	2019-07-09 14:30	2019-08-23 09:30	2019-08-29 14:30		PT_Normal					v4qGTUhSuk+AXvQridSMFw				N	0	0			2019-04-04 11:08	2019-06-05 09:02	admin	admin	
+%R	133289	5482	33544	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1370	New Terrazo Interior		25	0	75	0	0	0	75	0	0	0				2019-06-18 09:30	2019-07-09 14:30		2019-06-11 09:30	2019-07-01 14:30	2019-06-11 09:30	2019-07-01 14:30	2019-06-11 09:30	2019-07-01 14:30	2019-06-18 09:30	2019-07-09 14:30		PT_Normal					INit3aIWjk6z9kq4gs+SvA				N	0	0			2019-04-04 11:09	2019-06-05 09:02	admin	admin	
+%R	133290	5482	33544	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1380	Entry Steel Fins		215	0	50	0	0	0	50	0	0	0				2019-08-07 09:30	2019-08-20 14:30		2019-06-05 09:30	2019-06-18 14:30	2019-06-05 09:30	2019-06-18 14:30	2019-06-05 09:30	2019-06-18 14:30	2019-08-07 09:30	2019-08-20 14:30		PT_Normal					CMsjV2IKHE2mtk2hYlRNFg				N	0	0			2019-04-04 11:09	2019-06-05 09:02	admin	admin	
+%R	133291	5482	33544	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1390	Toilet Room Special Coating		65	40	10	0	0	0	10	0	0	0				2019-08-14 09:30	2019-08-15 14:30		2019-07-26 09:30	2019-07-29 14:30	2019-07-26 09:30	2019-07-29 14:30	2019-07-26 09:30	2019-07-29 14:30	2019-08-14 09:30	2019-08-15 14:30		PT_Normal					CKCt7VCQEEWa9v9lO9ATEQ				N	0	0			2019-04-04 11:09	2019-06-05 09:34	admin	admin	
+%R	133292	5482	33544	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1400	Marble Installation		25	0	25	0	0	0	25	0	0	0				2019-08-16 09:30	2019-08-22 14:30		2019-08-09 09:30	2019-08-15 14:30	2019-08-09 09:30	2019-08-15 14:30	2019-08-09 09:30	2019-08-15 14:30	2019-08-16 09:30	2019-08-22 14:30		PT_Normal					TRVUT8pSVUySW/Q6KMk3Nw				N	0	0			2019-04-04 11:10	2019-06-05 09:34	admin	admin	
+%R	133293	5482	33545	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1410	Heat Pumps Installation		255	255	25	0	0	0	25	0	0	0				2019-08-23 09:30	2019-08-29 14:30		2019-06-11 09:30	2019-06-17 14:30	2019-06-11 09:30	2019-06-17 14:30	2019-06-11 09:30	2019-06-17 14:30	2019-08-23 09:30	2019-08-29 14:30		PT_Normal					KYdtoYlNiEGy2Ey4FpJzhg				N	0	0			2019-04-04 11:10	2019-06-05 09:02	admin	admin	
+%R	133294	5482	33545	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1420	Air Distribution		25	0	5	0	0	0	5	0	0	0				2019-07-17 09:30	2019-07-17 14:30		2019-07-10 09:30	2019-07-10 14:30	2019-07-10 09:30	2019-07-10 14:30	2019-07-10 09:30	2019-07-10 14:30	2019-07-17 09:30	2019-07-17 14:30		PT_Normal					Iyf/xfvdM0KrxwLketUZig				N	0	0			2019-04-04 11:10	2019-06-05 09:02	admin	admin	
+%R	133295	5482	33545	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1430	Ductwork		25	0	25	0	0	0	25	0	0	0				2019-07-10 09:30	2019-07-16 14:30		2019-07-02 09:30	2019-07-09 14:30	2019-07-02 09:30	2019-07-09 14:30	2019-07-02 09:30	2019-07-09 14:30	2019-07-10 09:30	2019-07-16 14:30		PT_Normal					cm0Tg3TAJEOXLEodksuEUg				N	0	0			2019-04-04 11:11	2019-06-05 09:02	admin	admin	
+%R	133296	5482	33545	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1440	Plumbing Fixtures Removal				0	0	0	0	15	0	0	0		2019-04-09 00:00	2019-04-12 00:00								2019-05-08 09:30	2019-05-10 14:30				PT_Normal					mHFviigIGUucK7roPhqEMQ				N	0	0			2019-04-04 11:11	2019-05-08 12:50	admin	admin	
+%R	133297	5482	33545	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1450	HVAC System Removal				0	0	0	0	25	0	0	0		2019-05-01 00:00	2019-05-07 00:00								2019-05-29 09:30	2019-06-04 14:30				PT_Normal					qrf/DtuLd0yIXOAdnlgpyQ				N	0	0			2019-04-04 11:11	2019-05-29 09:06	admin	admin	
+%R	133298	5482	33545	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1460	Plumbing Fixtures Installation		25	25	25	0	0	0	25	0	0	0				2019-08-23 09:30	2019-08-29 14:30		2019-08-16 09:30	2019-08-22 14:30	2019-08-16 09:30	2019-08-22 14:30	2019-08-16 09:30	2019-08-22 14:30	2019-08-23 09:30	2019-08-29 14:30		PT_Normal					cv8sfUrDZUmtHs2I5F5EXg				N	0	0			2019-04-04 11:12	2019-06-05 09:34	admin	admin	
+%R	133299	5482	33545	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1470	Electrical Panel Modification		250	250	50	0	0	0	50	0	0	0				2019-08-16 09:30	2019-08-29 14:30		2019-06-05 09:30	2019-06-18 14:30	2019-06-05 09:30	2019-06-18 14:30	2019-06-05 09:30	2019-06-18 14:30	2019-08-16 09:30	2019-08-29 14:30		PT_Normal					MCm4Gyv71kCB1urw4kvlhg				N	0	0			2019-04-04 11:12	2019-06-05 09:02	admin	admin	
+%R	133300	5482	33546	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1480	Glass & Glazing Removal				0	0	0	0	25	0	0	0		2019-05-24 00:00	2019-05-27 00:00								2019-05-29 09:30	2019-06-04 14:30				PT_Normal					lyJQjhJFnUav6ZfsOWad+w				N	0	0			2019-04-04 11:13	2019-05-29 09:07	admin	admin	
+%R	133301	5482	33546	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1490	Glass & Glazing Installation		155	130	50	0	0	0	50	0	0	0				2019-07-26 09:30	2019-08-08 14:30		2019-06-11 09:30	2019-06-24 14:30	2019-06-11 09:30	2019-06-24 14:30	2019-06-11 09:30	2019-06-24 14:30	2019-07-26 09:30	2019-08-08 14:30		PT_Normal					4yyyTu3wRUeSoxxNG+G6Fg				N	0	0			2019-04-04 11:13	2019-06-05 09:33	admin	admin	
+%R	133302	5482	33546	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1500	Double Double Room Pool		0	0	50	0	0	0	50	0	0	0				2019-08-16 09:30	2019-08-29 14:30		2019-08-16 09:30	2019-08-29 14:30	2019-08-16 09:30	2019-08-29 14:30	2019-08-16 09:30	2019-08-29 14:30	2019-08-16 09:30	2019-08-29 14:30		PT_Normal					mYNPeTKJbkiMJ20wYIZDng				Y	0	0			2019-04-04 11:13	2019-06-05 09:02	admin	admin	
+%R	133303	5482	33546	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1510	King Room Pool Refurbish		25	25	25	0	0	0	25	0	0	0				2019-08-23 09:30	2019-08-29 14:30		2019-08-16 09:30	2019-08-22 14:30	2019-08-16 09:30	2019-08-22 14:30	2019-08-16 09:30	2019-08-22 14:30	2019-08-23 09:30	2019-08-29 14:30		PT_Normal					Zi5bF2cHIkaIw4FUfMdroA				N	0	0			2019-04-04 11:14	2019-06-05 09:02	admin	admin	
+%R	133304	5482	33533	7548	0	N	1	N	N	CP_Drtn	TT_FinMile	DT_FixedDrtn	TK_NotStart	CIC-1520	Project Finish		0	0	0	0	0	0	0	0	0	0				2019-08-29 14:30	2019-08-29 14:30		2019-08-29 14:30	2019-08-29 14:30	2019-08-29 14:30	2019-08-29 14:30	2019-08-29 14:30	2019-08-29 14:30	2019-08-29 14:30	2019-08-29 14:30		PT_Normal					GOiKIZPmQUmlbaa5lBupmw				Y	0	0			2019-04-04 11:15	2019-06-05 09:02	admin	admin	
+%R	133305	5482	33530	7548	100	N	1	N	N	CP_Drtn	TT_FinMile	DT_FixedDrtn	TK_Complete	CIC-1530	Proposal Approval				0	0	0	0	0	0	0	0		2019-04-22 09:30	2019-04-22 09:30								2019-04-22 09:30	2019-04-22 09:30				PT_Normal					q3MgfxkTHk2f8k/6/v7SGg				N	0	0			2019-04-04 13:33	2019-05-08 12:50	admin	admin	
+%R	133327	5482	34854	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1535	Submittal For Record		220	0	25	0	0	0	25	0	0	0				2019-08-09 09:30	2019-08-15 14:30		2019-06-06 09:30	2019-06-12 14:30	2019-06-06 09:30	2019-06-12 14:30	2019-06-06 09:30	2019-06-12 14:30	2019-08-09 09:30	2019-08-15 14:30		PT_Normal					cF6WGAmp5ECrGcphpMcUsw	56Y+wscqX0a6Y/ziHq7Kaw			N	0	0			2019-04-17 15:09	2019-06-05 09:02	admin	admin	
+%R	133328	5482	34854	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1540	Submittal Approval		220	0	25	0	0	0	25	0	0	0				2019-08-16 09:30	2019-08-22 14:30		2019-06-13 09:30	2019-06-19 14:30	2019-06-13 09:30	2019-06-19 14:30	2019-06-13 09:30	2019-06-19 14:30	2019-08-16 09:30	2019-08-22 14:30		PT_Normal					2ZSwtDrECU6CEg/Px6rO/Q	5tDppNsPY0GqqYo7cDv6MQ			N	0	0			2019-04-17 15:09	2019-06-05 09:02	admin	admin	
+%R	133329	5482	34854	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	CIC-1545	Fabrication & Delivery		220	220	25	0	0	0	25	0	0	0				2019-08-23 09:30	2019-08-29 14:30		2019-06-20 09:30	2019-06-26 14:30	2019-06-20 09:30	2019-06-26 14:30	2019-06-20 09:30	2019-06-26 14:30	2019-08-23 09:30	2019-08-29 14:30		PT_Normal					1ZwYCZw6tUyf5UhGDFbrLQ	f8wber1w4USvPNoQKX7I6g			N	0	0			2019-04-17 15:09	2019-06-05 09:02	admin	admin	
+%R	133330	5482	34854	7548	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	CIC-1555	Mock Up Sample Prep				0	0	0	0	25	0	0	0		2019-04-11 00:00	2019-04-17 00:00								2019-05-13 09:30	2019-05-17 14:30				PT_Normal					/FGATg+KtU+IMYmEWYEtxA				N	0	0			2019-04-17 15:09	2019-05-29 11:27	admin	admin	
+%R	133331	5482	34854	7548	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Active	CIC-1550	Mock Up Sample Approval		25	0	5	0	0	0	10	0	0	0		2019-05-07 00:00		2019-06-12 09:30	2019-06-12 14:30		2019-06-05 09:30	2019-06-05 14:30	2019-06-05 09:30	2019-06-05 14:30	2019-05-20 09:30	2019-05-21 14:30	2019-06-12 09:30	2019-06-12 14:30		PT_Normal					uXj5vaPePkuoRJ7+X3TZfQ				N	0	0			2019-04-17 15:10	2019-06-05 09:02	admin	admin	
+%T	TASKPRED
+%F	task_pred_id	task_id	pred_task_id	proj_id	pred_proj_id	pred_type	lag_hr_cnt	float_path	aref	arls
+%R	110047	128465	133279	5482	5482	PR_FS	0			2019-07-19 09:30
+%R	110048	128466	133279	5482	5482	PR_FS	0			
+%R	110049	128467	128466	5482	5482	PR_FS	0		2019-06-05 00:00	2019-06-05 09:30
+%R	110050	128468	128467	5482	5482	PR_FS	0		2019-06-18 14:30	2019-06-19 09:30
+%R	110051	128469	133279	5482	5482	PR_FS	0			
+%R	110052	128470	128469	5482	5482	PR_FS	0			2019-07-03 09:30
+%R	110053	128471	128470	5482	5482	PR_FS	0		2019-06-11 14:30	2019-07-11 09:30
+%R	110054	128472	133279	5482	5482	PR_FS	0			
+%R	110055	128473	128472	5482	5482	PR_FS	0			
+%R	110056	128474	128473	5482	5482	PR_FS	0			2019-07-30 09:30
+%R	110057	128469	133305	5482	5482	PR_FS	0			
+%R	110058	128475	133279	5482	5482	PR_FS	0			
+%R	110059	128476	128475	5482	5482	PR_FS	0			
+%R	110060	128477	128476	5482	5482	PR_FS	0			2019-06-12 09:30
+%R	110061	128478	133279	5482	5482	PR_FS	0			
+%R	110062	128479	128478	5482	5482	PR_FS	0			
+%R	110063	128480	128479	5482	5482	PR_FS	0			2019-08-19 09:30
+%R	110064	128481	133279	5482	5482	PR_FS	0			
+%R	110065	128482	128481	5482	5482	PR_FS	0			
+%R	110066	128483	128482	5482	5482	PR_FS	0			2019-07-15 09:30
+%R	110067	128484	133279	5482	5482	PR_FS	0			
+%R	110068	128485	128484	5482	5482	PR_FS	0			
+%R	110069	128486	128485	5482	5482	PR_FS	0			
+%R	110070	128487	133279	5482	5482	PR_FS	0			
+%R	110071	128488	128487	5482	5482	PR_FS	0			
+%R	110072	128489	128488	5482	5482	PR_FS	0			
+%R	110073	133282	133279	5482	5482	PR_FS	0			
+%R	110074	133296	133282	5482	5482	PR_FS	0			
+%R	110075	133297	133296	5482	5482	PR_FS	0			
+%R	110076	133284	133296	5482	5482	PR_FS	0			
+%R	110077	133280	133284	5482	5482	PR_SS	0			
+%R	110078	133300	133280	5482	5482	PR_SS	10			
+%R	110079	133283	133280	5482	5482	PR_FS	0			
+%R	110080	133283	133300	5482	5482	PR_FS	0			
+%R	110081	133289	133283	5482	5482	PR_FS	0		2019-06-05 00:00	2019-06-18 09:30
+%R	110082	133288	133289	5482	5482	PR_FS	0		2019-07-01 14:30	2019-08-23 09:30
+%R	110083	133290	133283	5482	5482	PR_SS	0		2019-06-05 00:00	2019-08-07 09:30
+%R	110084	133287	133290	5482	5482	PR_FS	0		2019-06-18 14:30	2019-08-21 09:30
+%R	110085	133291	133289	5482	5482	PR_FS	0		2019-07-01 14:30	2019-08-14 09:30
+%R	110086	133293	128480	5482	5482	PR_FS	0		2019-06-10 14:30	2019-08-23 09:30
+%R	110087	133292	133291	5482	5482	PR_FS	0		2019-07-29 14:30	2019-08-16 09:30
+%R	110088	133298	133292	5482	5482	PR_FS	0		2019-08-15 14:30	2019-08-23 09:30
+%R	110089	133295	133280	5482	5482	PR_FS	0		2019-06-05 00:00	2019-07-10 09:30
+%R	110090	133295	133289	5482	5482	PR_FS	0		2019-07-01 14:30	2019-07-10 09:30
+%R	110091	133294	133295	5482	5482	PR_FS	0		2019-07-09 14:30	2019-07-17 09:30
+%R	110092	133299	128486	5482	5482	PR_FS	0		2019-06-05 00:00	2019-08-16 09:30
+%R	110093	133285	133294	5482	5482	PR_FS	0		2019-07-10 14:30	2019-07-18 09:30
+%R	110094	133286	133285	5482	5482	PR_FS	0		2019-07-24 14:30	2019-08-02 09:30
+%R	110095	133281	133286	5482	5482	PR_FS	0		2019-08-01 14:30	2019-08-09 09:30
+%R	110097	133281	133301	5482	5482	PR_FS	0		2019-06-24 14:30	2019-08-09 09:30
+%R	110098	133303	128468	5482	5482	PR_FS	0		2019-08-15 14:30	2019-08-23 09:30
+%R	110099	133302	128468	5482	5482	PR_FS	0		2019-08-15 14:30	2019-08-16 09:30
+%R	110100	133302	128489	5482	5482	PR_FS	0		2019-06-05 00:00	2019-08-16 09:30
+%R	110101	133304	133303	5482	5482	PR_FS	0		2019-08-22 14:30	2019-08-29 14:30
+%R	110102	133304	133302	5482	5482	PR_FS	0		2019-08-29 14:30	2019-08-29 14:30
+%R	110103	133304	133301	5482	5482	PR_FS	0		2019-06-24 14:30	2019-08-29 14:30
+%R	110105	133304	133299	5482	5482	PR_FS	0		2019-06-18 14:30	2019-08-29 14:30
+%R	110106	133304	133298	5482	5482	PR_FS	0		2019-08-22 14:30	2019-08-29 14:30
+%R	110107	133304	133294	5482	5482	PR_FS	0		2019-07-10 14:30	2019-08-29 14:30
+%R	110108	133304	133293	5482	5482	PR_FS	0		2019-06-17 14:30	2019-08-29 14:30
+%R	110109	133304	133292	5482	5482	PR_FS	0		2019-08-15 14:30	2019-08-29 14:30
+%R	110110	133304	133290	5482	5482	PR_FS	0		2019-06-18 14:30	2019-08-29 14:30
+%R	110111	133304	133289	5482	5482	PR_FS	0		2019-07-01 14:30	2019-08-29 14:30
+%R	110112	133304	133288	5482	5482	PR_FS	0		2019-07-09 14:30	2019-08-29 14:30
+%R	110113	133304	133287	5482	5482	PR_FS	0		2019-06-20 14:30	2019-08-29 14:30
+%R	110114	133304	133286	5482	5482	PR_FS	0		2019-08-01 14:30	2019-08-29 14:30
+%R	110115	133304	133285	5482	5482	PR_FS	0		2019-07-24 14:30	2019-08-29 14:30
+%R	110116	133304	133284	5482	5482	PR_FS	0		2019-06-05 00:00	2019-08-29 14:30
+%R	110117	133304	133281	5482	5482	PR_FS	0		2019-08-22 14:30	2019-08-29 14:30
+%R	110118	133301	128465	5482	5482	PR_FS	0		2019-06-10 14:30	2019-07-26 09:30
+%R	110119	133281	128471	5482	5482	PR_FS	0		2019-07-10 14:30	2019-08-09 09:30
+%R	110120	133291	128474	5482	5482	PR_FS	0		2019-06-19 14:30	2019-08-14 09:30
+%R	110121	133292	128477	5482	5482	PR_FS	0		2019-08-08 14:30	2019-08-16 09:30
+%R	110122	133294	128483	5482	5482	PR_FS	0		2019-06-06 14:30	2019-07-17 09:30
+%R	110124	133288	133287	5482	5482	PR_FS	0		2019-06-20 14:30	2019-08-23 09:30
+%R	110159	133328	133327	5482	5482	PR_FS	0		2019-06-12 14:30	2019-08-16 09:30
+%R	110160	133329	133328	5482	5482	PR_FS	0		2019-06-19 14:30	2019-08-23 09:30
+%R	110162	133331	133330	5482	5482	PR_FS	0			2019-06-12 09:30
+%R	110164	133291	133285	5482	5482	PR_FS	0		2019-07-24 14:30	2019-08-14 09:30
+%R	110165	133288	133331	5482	5482	PR_FS	0		2019-06-05 14:30	2019-08-23 09:30
+%R	110166	128465	133305	5482	5482	PR_FS	0			2019-07-19 09:30
+%R	110167	128466	133305	5482	5482	PR_FS	0			
+%R	110169	128469	133305	5482	5482	PR_FF	0			
+%R	110170	128472	133305	5482	5482	PR_FS	0			
+%R	110171	128475	133305	5482	5482	PR_FS	0			
+%R	110172	128478	133305	5482	5482	PR_FS	0			
+%R	110173	128481	133305	5482	5482	PR_FS	0			
+%R	110174	128484	133305	5482	5482	PR_FS	0			
+%R	110175	128487	133305	5482	5482	PR_FS	0			
+%R	110176	133279	133305	5482	5482	PR_FS	0			
+%R	110177	133289	133331	5482	5482	PR_FS	15		2019-06-10 14:30	2019-06-13 09:30
+%R	110304	133330	133305	5482	5482	PR_FS	0			
+%R	110305	133327	133331	5482	5482	PR_FS	0		2019-06-05 14:30	2019-08-09 09:30
+%E
